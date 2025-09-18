@@ -67,7 +67,7 @@ export default function ExportWalletPage() {
     return (
       <div>
         <p>Export wallet functionality not available.</p>
-        <p>Available methods: {Object.keys(usePrivy()).join(", ")}</p>
+        {/* <p>Available methods: {Object.keys(usePrivy()).join(", ")}</p> */}
       </div>
     );
   }
