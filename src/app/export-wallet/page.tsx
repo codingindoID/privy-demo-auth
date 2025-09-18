@@ -48,7 +48,7 @@ export default function ExportWalletPage() {
   };
 
   // Debug: Log what's available in usePrivy
-  console.log("Available Privy methods:", Object.keys(usePrivy()));
+  // console.log("Available Privy methods:", Object.keys(usePrivy()));
 
   if (!ready) {
     return <div>Loading...</div>;
